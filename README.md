@@ -60,7 +60,7 @@ A unique performance by a local folkloric dance group
 * Download FIJI from [fiji.sc](https://fiji.sc)
 
 ### Jupyter Notebook or Jupyter Lab
-* Download Anaconda Navigator from [https://www.anaconda.com/download]([https://fiji.sc](https://www.anaconda.com/download))
+* Download Anaconda Navigator from [https://www.anaconda.com/download](https://www.anaconda.com/download)
 
 ### napari
 use Anaconda Prompt or other terminal to create a conda environment (make sure you have no other existing "mynapari-env")
