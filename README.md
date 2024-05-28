@@ -1,6 +1,8 @@
 # GBI-LNMA_2024_image_analysis_and_image_repositories_course
 GBI-LNMA 2024 course: Image analysis and data reuse through image repositories
 
+[https://globalbioimaging.org/international-training-courses/gbi-lnma-2024-course]()
+![](https://globalbioimaging.org/user/pages/03.international-training-courses/gbi-lnma-2024-course/Mexico%20course%20cropped.png)
 # Programme
 
 ## Day 1: Monday, 10th of June
