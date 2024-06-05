@@ -1,7 +1,7 @@
 # GBI-LNMA_2024_image_analysis_and_image_repositories_course
 GBI-LNMA 2024 course: Image analysis and data reuse through image repositories
 
-[https://globalbioimaging.org/international-training-courses/gbi-lnma-2024-course]()
+[https://globalbioimaging.org/international-training-courses/gbi-lnma-2024-course](https://globalbioimaging.org/international-training-courses/gbi-lnma-2024-course)
 ![](https://globalbioimaging.org/user/pages/03.international-training-courses/gbi-lnma-2024-course/Mexico%20course%20cropped.png)
 # Programme
 
@@ -59,7 +59,16 @@ A unique performance by a local folkloric dance group
 # Software installation
 
 ### ImageJ / FIJI
-* Download FIJI from [fiji.sc](https://fiji.sc)
+
+1. Download FIJI from [here](https://fiji.sc/).
+2. To avoid any permissions issues, install FIJI is in your home directory:
+   * PC: `C:\users\<your user name>`
+   * Mac: `/Users/<your user name>`
+
+   > **WARNING: FIJI *must* be installed in a location where it has write permission - otherwise, it cannot update itself**
+3. Start FIJI and allow the updater to run:
+4. (Optional) If the updater does not run automatically, select `Help > Update`:
+5. If FIJI produces any error messages, it is most likely because it does not have the necessary permissions to update itself - return to step #2 and double-check the location of the installation.
 
 ### Jupyter Notebook or Jupyter Lab
 * Download Anaconda Navigator from [https://www.anaconda.com/download](https://www.anaconda.com/download)
