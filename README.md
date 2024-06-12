@@ -9,7 +9,7 @@ GBI-LNMA 2024 course: Image analysis and data reuse through image repositories
 
 ##### 8:30 - 9:00	Registration at the Institute of Biotechnology (Instituto de Biotecnología)
 ##### 9:00 - 9:30	Welcome by  the director of the Institute of Biotechnology - Laura Palomares (National Autonomous University of Mexico)
-##### 9:30 - 11:00	Introduction to digital images - Trainer: Stefania Marcotti (King's College London), Helper: Rocco D’Antuono (Francis Crick Institute)
+##### 9:30 - 11:00	Introduction to digital images - Trainer: Rocco D’Antuono (Francis Crick Institute), Helper: Stefania Marcotti (King's College London)
 ##### 11:00 - 11:30	Coffee break
 ##### 11:30 - 13:00	Introduction to digital images (continued) - Trainer: Rocco D’Antuono (Francis Crick Institute), Helper: Stefania Marcotti (King's College London)
 ##### 13:00 - 14:00	Lunch
@@ -80,31 +80,37 @@ conda create -y -n mynapari-env python=3.8
 conda activate mynapari-env
 conda install napari pyqt  
 ```
+### napari plugins showcase:
+#### How to install napari-superres
+```
+conda create -y -n np-superres -c conda-forge python=3.9
+conda activate np-superres
+conda install -c conda-forge napari pyqt ipywidgets git
+```
+use graphical installation
 
+or get the latest developments with
+```
+pip install git+https://github.com/RoccoDAnt/napari-superres.git
+```
+More info at [https://github.com/RoccoDAnt/napari-superres](https://github.com/RoccoDAnt/napari-superres)
 
+#### How to install napari-zelda
+```
+conda create -y -n np-zelda python=3.8
+conda activate napari-env
+conda install napari pyqt git
+```
+use graphical installation
+1. Plugins / Install/Uninstall Package(s)
 
+  ![](https://raw.githubusercontent.com/RoccoDAnt/napari-zelda/main/docs/Clipboard_ZELDA_Plugin_install_in_napari.png)
 
+2. Choose ZELDA
+  ![](https://raw.githubusercontent.com/RoccoDAnt/napari-zelda/main/docs/Clipboard_ZELDA_Plugin_install_ZELDA_in_napari_Arrow.png)  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+or get the latest developments with
+```
+pip install git+https://github.com/RoccoDAnt/napari-zelda.git
+```
+More info at [https://github.com/RoccoDAnt/napari-zelda](https://github.com/RoccoDAnt/napari-zelda)
